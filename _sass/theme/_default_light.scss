@@ -2,23 +2,23 @@
     DEFAULT THEME - LIGHT VERSION
     ========================================================================== */
 /* Color codes used for the theme */
-$primary-color              : #6b84d4; /* Summer Cool Lavender-Blue */
-$gray                       : #7c8896; /* Summer Slate Gray */
-$dark-gray                  : mix(#000, $gray, 30%); /* #575f69 */
-$darker-gray                : mix(#000, $gray, 60%); /* #32363c */
-$light-gray                 : mix(#fff, $gray, 50%); /* #bdc4cb */
-$lighter-gray               : #eff2f8; /* Light Cool Periwinkle-Gray */
+$primary-color              : #45a86d; /* Refreshing Grass Green */
+$gray                       : #75857b; /* Moss Slate Gray */
+$dark-gray                  : mix(#000, $gray, 30%); /* #525d57 */
+$darker-gray                : mix(#000, $gray, 60%); /* #2e3531 */
+$light-gray                 : mix(#fff, $gray, 50%); /* #babfb8 */
+$lighter-gray               : #edf5f0; /* Soft Mint-Gray */
 
 /* Color codes used for the site */
-$danger-color               : #e87b90; /* Cool Rose/Pink */
-$info-color                 : #6b84d4;
-$notice-color               : #7c8896;
-$success-color              : #72c29b; /* Cool Mint */
+$danger-color               : #e87b90; /* Soft Cool Pink */
+$info-color                 : #45a86d;
+$notice-color               : #75857b;
+$success-color              : #45a86d;
 $warning-color              : #ffb86c;
 
 /* Other basic settings for the template */
-$border-radius              : 8px; /* Slightly rounder for modern feel */
-$box-shadow                 : 0 4px 12px rgba(107, 132, 212, 0.08); /* Soft colored shadow */
+$border-radius              : 12px; /* Even rounder for an organic, friendly feel */
+$box-shadow                 : 0 4px 16px rgba(69, 168, 109, 0.06); /* Soft green-tinted shadow */
 $global-transition          : all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 $masthead-height            : 70px;
 $navicon-width              : 28px;
@@ -30,18 +30,18 @@ $sidebar-screen-min-width   : 1024px;
 :root {
     --global-base-color                 : #{$primary-color};
     --global-bg-color                   : #ffffff;
-    --global-footer-bg-color            : #f6f8fb;
-    --global-border-color               : #e5ebf5;
-    --global-dark-border-color          : #ccd3e0;
-    --global-code-background-color      : #f5f7fa;
+    --global-footer-bg-color            : #f5faf6;
+    --global-border-color               : #e6f0e9;
+    --global-dark-border-color          : #cce0d3;
+    --global-code-background-color      : #f5f9f6;
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #5a77c7;
-    --global-link-color-hover           : #435b9c;
-    --global-link-color-visited         : #839bdb;  
-    --global-masthead-link-color        : #575f69;
-    --global-masthead-link-color-hover  : #6b84d4;    
-    --global-text-color                 : #3c444d;
+    --global-link-color                 : #3f9862;
+    --global-link-color-hover           : #2b6c44;
+    --global-link-color-visited         : #6eb88c;  
+    --global-masthead-link-color        : #4a544f;
+    --global-masthead-link-color-hover  : #45a86d;    
+    --global-text-color                 : #333d38;
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};
 }
