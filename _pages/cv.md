@@ -11,54 +11,19 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **B.S. in Computer Science (Software Engineering)**, Baekseok University, 2019.03 - 2024.02
+* **Science Course Graduate**, Bundang Yeongdeok Girls' High School, 2017.03 - 2019.02
 
-Work experience
+Work Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Java & Web Developer**, Spire Technology, 2023.09 - Present
+  * AI-based communication network quality, big data solutions, and ICT convergence device development.
+  * Developed dashboard UI for terminal device status monitoring.
+  * Developed web pages/UI for national industrial tasks and ICT projects.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* **Back-end**: Java, Spring Framework
+* **Front-end**: HTML5, CSS3, JavaScript, jQuery
+* **Database**: MySQL, Oracle, PostgreSQL
+* **Version Control**: Git, GitHub

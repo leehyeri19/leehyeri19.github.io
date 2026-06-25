@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Hyeri Lee"
+title                    : "HyeRi Lee"
 title_separator          : "-"
-name                     : &name "Hyeri Lee"
-description              : &description "Hyeri Lee's portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "HyeRi Lee"
+description              : &description "이혜리(HyeRi Lee)의 포트폴리오 웹사이트입니다. Java 기반 웹 개발 및 UI 개발에 열정을 다하는 개발자입니다."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://leehyeri19.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,13 +24,13 @@ repository               : "leehyeri19/leehyeri19.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "이혜리 (HyeRi Lee)"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "cabinkss02@naver.com" 
+  bio              : "Java 기반 웹 개발자"
+  location         : "South Korea"
+  employer         : "스파이어테크놀로지 (Spire Technology)"
+  uri              : "https://leehyeri19.github.io"
+  email            : "cabinkss02@gmail.com" 
 
   # Academic websites
   academia         : # URL
