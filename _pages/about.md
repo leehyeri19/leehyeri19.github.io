@@ -63,11 +63,15 @@ redirect_from:
   <div class="bio-text" style="flex: 1; min-width: 320px;">
     <h1 style="margin-top: 0; font-size: 2.2em; line-height: 1.3; font-weight: 800; letter-spacing: -0.5px;">
       안녕하세요! <br>
-      <span style="color: var(--global-base-color);">Java 개발을 좋아하는</span><br>
-      웹 개발자 이혜리입니다. 🌱
+      <span style="color: var(--global-base-color);">운영과 데이터 품질에 강한</span><br>
+      백엔드 개발자 이혜리입니다. 🌱
     </h1>
-    <p style="font-size: 1.05em; color: var(--global-text-color); line-height: 1.7; margin-bottom: 30px;">
-      만들고 싶은 것을 직접 개발하고 구현하며, 개발을 통해 가치를 더해가는 과정에서 큰 즐거움을 느끼는 개발자입니다. 돈을 벌며 개발하는 경험을 쌓는 동안 컴퓨터 공학과 개발의 진짜 매력에 눈뜨게 되었으며, 현재는 더 나은 기술력을 지닌 개발자로 깊이 있게 성장하는 것에 흥미를 쏟고 있습니다.
+    <p style="font-size: 1.05em; color: var(--global-text-color); line-height: 1.8; margin-bottom: 30px;">
+      <strong style="color: var(--global-base-color);">
+        동작하는 기능보다, 오래 운영될 수 있는 서비스를 만드는 것이 좋은 개발이라고 생각합니다.
+      </strong><br><br>
+      실무에서 Java 백엔드 개발자로 일하며, 기능 구현보다 운영 안정성·데이터 정합성·유지보수성을 함께 고민해왔습니다.
+      문제가 발생하면 임시방편보다 원인을 먼저 파악하고, 백엔드 개발자지만 항상 사용자 화면을 함께 생각합니다.
     </p>
     <div class="bio-links" style="display: flex; gap: 14px; flex-wrap: wrap;">
       <a href="mailto:cabinkss02@gmail.com" style="background: var(--global-base-color); color: #fff; padding: 10px 22px; border-radius: 30px; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 10px rgba(69, 168, 109, 0.25); transition: var(--global-transition);">
@@ -83,6 +87,104 @@ redirect_from:
   </div>
   <div class="bio-avatar" style="text-align: center; flex-shrink: 0; margin-left: auto; margin-right: auto;">
     <img src="/images/profile.png" alt="이혜리" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 5px solid var(--global-base-color); box-shadow: 0 10px 30px rgba(69, 168, 109, 0.2); transition: var(--global-transition);">
+  </div>
+</div>
+
+---
+
+## 🧭 개발 가치관
+
+<style>
+  .value-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+  @media (max-width: 700px) {
+    .value-card { grid-template-columns: 1fr; }
+  }
+  .value-item {
+    background: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
+    border-radius: var(--border-radius);
+    padding: 20px 22px;
+    box-shadow: var(--box-shadow);
+    transition: var(--global-transition);
+    border-left: 4px solid var(--global-base-color);
+  }
+  .value-item:hover {
+    transform: translateY(-3px);
+    border-left-color: var(--global-base-color);
+    box-shadow: 0 8px 24px rgba(69, 168, 109, 0.15);
+  }
+  .value-icon {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    display: block;
+  }
+  .value-title {
+    font-size: 0.95em;
+    font-weight: 700;
+    color: var(--global-base-color);
+    margin: 0 0 8px 0;
+    line-height: 1.4;
+  }
+  .value-desc {
+    font-size: 0.88em;
+    color: var(--global-text-color);
+    line-height: 1.7;
+    margin: 0;
+  }
+  .value-desc em {
+    font-style: normal;
+    color: var(--global-text-color-light);
+    display: block;
+    margin-top: 6px;
+    font-size: 0.95em;
+  }
+</style>
+
+<div class="value-card">
+  <div class="value-item">
+    <span class="value-icon">🔍</span>
+    <p class="value-title">원인을 이해해야 같은 문제를 반복하지 않는다고 믿습니다.</p>
+    <p class="value-desc">
+      오류가 발생하면 증상보다 원인을 먼저 찾습니다.<br>
+      실행계획, 쿼리 구조, 데이터 흐름을 파고들어<br>
+      근본적인 해결책을 찾는 개발을 지향합니다.
+      <em>임시방편보다 구조적인 이해를 먼저 합니다.</em>
+    </p>
+  </div>
+  <div class="value-item">
+    <span class="value-icon">⚙️</span>
+    <p class="value-title">운영되는 서비스를 만드는 것이 개발이라고 생각합니다.</p>
+    <p class="value-desc">
+      실무에서 배운 건 구현보다 운영이 더 어렵다는 것입니다.<br>
+      확장성, 유지보수성, 안정성을 함께 고민하며<br>
+      &ldquo;지금만 되는 코드&rdquo;가 아닌 &ldquo;나중에도 유지될 코드&rdquo;를 씁니다.
+      <em>서비스 출시 이후가 개발의 진짜 시작이라고 믿습니다.</em>
+    </p>
+  </div>
+  <div class="value-item">
+    <span class="value-icon">🗄️</span>
+    <p class="value-title">데이터가 신뢰받아야 서비스도 신뢰받습니다.</p>
+    <p class="value-desc">
+      데이터는 단순히 저장되는 정보가 아니라<br>
+      서비스의 신뢰를 만드는 기반이라고 생각합니다.<br>
+      정합성 검증과 정확한 데이터 처리를 개발의 핵심 원칙으로 삼습니다.
+      <em>조회 성능, 데이터 검증, DB 구조 개선을 꾸준히 다뤄왔습니다.</em>
+    </p>
+  </div>
+  <div class="value-item">
+    <span class="value-icon">🪴</span>
+    <p class="value-title">작은 개선이 쌓여 서비스 품질을 만든다고 생각합니다.</p>
+    <p class="value-desc">
+      거창한 아키텍처보다, 현장에서 쿼리 하나·UI 하나를<br>
+      더 낫게 만들어가는 것이 실질적인 서비스 개선이라 믿습니다.<br>
+      백엔드 개발자지만, 항상 사용자 화면까지 함께 생각합니다.
+      <em>혼자 개발하는 것보다, 함께 운영하는 것을 중요하게 여깁니다.</em>
+    </p>
   </div>
 </div>
 
