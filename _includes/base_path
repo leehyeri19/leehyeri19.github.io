@@ -1,5 +1,9 @@
-{% if site.url %}
+{% if site.url contains "0.0.0.0" %}
+  {% assign base_path = site.baseurl | default: "" %}
+{% elsif site.url and site.url != "" %}
   {% assign base_path = site.url | append: site.baseurl %}
+{% elsif site.baseurl %}
+  {% assign base_path = site.baseurl %}
 {% else %}
-  {% assign base_path = site.github.url %}
+  {% assign base_path = "" %}
 {% endif %}

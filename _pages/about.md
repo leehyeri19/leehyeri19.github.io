@@ -74,11 +74,14 @@ redirect_from:
       문제가 발생하면 임시방편보다 원인을 먼저 파악하고, 백엔드 개발자지만 항상 사용자 화면을 함께 생각합니다.
     </p>
     <div class="bio-links" style="display: flex; gap: 14px; flex-wrap: wrap;">
-      <a href="mailto:cabinkss02@gmail.com" style="background: var(--global-base-color); color: #fff; padding: 10px 22px; border-radius: 30px; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 10px rgba(69, 168, 109, 0.25); transition: var(--global-transition);">
+      <a href="mailto:cabinkss02@naver.com" style="background: var(--global-base-color); color: #fff; padding: 10px 22px; border-radius: 30px; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 10px rgba(69, 168, 109, 0.25); transition: var(--global-transition);">
         <i class="fa-solid fa-envelope"></i> Email
       </a>
       <a href="https://github.com/leehyeri19" style="background: #24292e; color: #fff; padding: 10px 22px; border-radius: 30px; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; transition: var(--global-transition);">
         <i class="fa-brands fa-github"></i> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/hyrilee0713/" target="_blank" rel="noopener noreferrer" style="background: #0A66C2; color: #fff; padding: 10px 22px; border-radius: 30px; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; transition: var(--global-transition);">
+        <i class="fa-brands fa-linkedin"></i> LinkedIn
       </a>
       <a href="https://hyeri-lee.tistory.com/" style="background: #e65f2b; color: #fff; padding: 10px 22px; border-radius: 30px; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; transition: var(--global-transition);">
         <i class="fa-solid fa-blog"></i> Blog
